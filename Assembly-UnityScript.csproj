@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AA2EB905-8ABB-4C19-B002-4F7E32C2EF29}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CompilerGenerated</RootNamespace>
+    <AssemblyName>Assembly-UnityScript</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\YandereSimulator_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>..\..\YandereSimulator_Data\Managed\Boo.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\YandereSimulator_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>..\..\YandereSimulator_Data\Managed\Assembly-UnityScript-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>..\..\YandereSimulator_Data\Managed\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>..\..\YandereSimulator_Data\Managed\UnityScript.Lang.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$ArrayType$28.cs" />
+    <Compile Include="-Module-.cs" />
+    <Compile Include="AboutScript.cs" />
+    <Compile Include="AccessoryGroupScript.cs" />
+    <Compile Include="ActivateOsuScript.cs" />
+    <Compile Include="AlarmDiscScript.cs" />
+    <Compile Include="AnimatedGifScript.cs" />
+    <Compile Include="AnswerSheetScript.cs" />
+    <Compile Include="AntiCheatScript.cs" />
+    <Compile Include="aoi_character_pack_v0111_scenescript.cs" />
+    <Compile Include="aoi_character_pack_v0111_viewscript.cs" />
+    <Compile Include="AppearanceWindowScript.cs" />
+    <Compile Include="ArcScript.cs" />
+    <Compile Include="ArcTrailScript.cs" />
+    <Compile Include="ArmDetectorScript.cs" />
+    <Compile Include="AttackManagerScript.cs" />
+    <Compile Include="AudioListenerScript.cs" />
+    <Compile Include="BatheEventScript.cs" />
+    <Compile Include="BentoScript.cs" />
+    <Compile Include="BikeScript.cs" />
+    <Compile Include="BlasterScript.cs" />
+    <Compile Include="BlendshapeScript.cs" />
+    <Compile Include="BloodCleanerScript.cs" />
+    <Compile Include="BloodPoolScript.cs" />
+    <Compile Include="BloodPoolSpawnerScript.cs" />
+    <Compile Include="BloodSprayColliderScript.cs" />
+    <Compile Include="BloodyScreamScript.cs" />
+    <Compile Include="BlowtorchScript.cs" />
+    <Compile Include="BodyPartScript.cs" />
+    <Compile Include="BoneScript.cs" />
+    <Compile Include="BoneSetsScript.cs" />
+    <Compile Include="BoundaryScript.cs" />
+    <Compile Include="BrokenScript.cs" />
+    <Compile Include="BucketPourScript.cs" />
+    <Compile Include="BucketScript.cs" />
+    <Compile Include="BuildingDestructionScript.cs" />
+    <Compile Include="CabinetDoorScript.cs" />
+    <Compile Include="CalendarScript.cs" />
+    <Compile Include="CameraEffectsScript.cs" />
+    <Compile Include="CameraMoveScript.cs" />
+    <Compile Include="CamMouseOrbit.cs" />
+    <Compile Include="CautionScript.cs" />
+    <Compile Include="ChallengeIconScript.cs" />
+    <Compile Include="ChallengeScript.cs" />
+    <Compile Include="ChangingBoothScript.cs" />
+    <Compile Include="CharacterScript.cs" />
+    <Compile Include="CheeseScript.cs" />
+    <Compile Include="CigsScript.cs" />
+    <Compile Include="CirnoIceAttackScript.cs" />
+    <Compile Include="ClassScript.cs" />
+    <Compile Include="ClockScript.cs" />
+    <Compile Include="ClothingScript.cs" />
+    <Compile Include="ClubAmbienceScript.cs" />
+    <Compile Include="ClubManagerScript.cs" />
+    <Compile Include="ClubWindowScript.cs" />
+    <Compile Include="CollectibleScript.cs" />
+    <Compile Include="ComputerGamesScript.cs" />
+    <Compile Include="ConfessionSceneScript.cs" />
+    <Compile Include="ContainerScript.cs" />
+    <Compile Include="CookingEventScript.cs" />
+    <Compile Include="CosmeticScript.cs" />
+    <Compile Include="CounselorScript.cs" />
+    <Compile Include="CreditsLabelScript.cs" />
+    <Compile Include="CreditsScript.cs" />
+    <Compile Include="CreepyArmScript.cs" />
+    <Compile Include="CustomizationScript.cs" />
+    <Compile Include="CutsceneManagerScript.cs" />
+    <Compile Include="DatingMinigameScript.cs" />
+    <Compile Include="DebugMenuScript.cs" />
+    <Compile Include="DelinquentManagerScript.cs" />
+    <Compile Include="DelinquentScript.cs" />
+    <Compile Include="DemonArmScript.cs" />
+    <Compile Include="DemonPortalScript.cs" />
+    <Compile Include="DemonScript.cs" />
+    <Compile Include="DemonSlashScript.cs" />
+    <Compile Include="DetectionCameraScript.cs" />
+    <Compile Include="DetectionMarkerScript.cs" />
+    <Compile Include="DialogueWheelScript.cs" />
+    <Compile Include="DontLetSenpaiNoticeYouScript.cs" />
+    <Compile Include="DoorBoxScript.cs" />
+    <Compile Include="DoorGapScript.cs" />
+    <Compile Include="DoorOpenerScript.cs" />
+    <Compile Include="DoorScript.cs" />
+    <Compile Include="DrillScript.cs" />
+    <Compile Include="DropsScript.cs" />
+    <Compile Include="DumpScript.cs" />
+    <Compile Include="DumpsterHandleScript.cs" />
+    <Compile Include="DumpsterLidScript.cs" />
+    <Compile Include="EmergencyExitScript.cs" />
+    <Compile Include="EndOfDayScript.cs" />
+    <Compile Include="EventManagerScript.cs" />
+    <Compile Include="ExclamationScript.cs" />
+    <Compile Include="ExpressionMaskScript.cs" />
+    <Compile Include="FakeStudentScript.cs" />
+    <Compile Include="FakeStudentSpawnerScript.cs" />
+    <Compile Include="FalconPunchScript.cs" />
+    <Compile Include="FallCheckerScript.cs" />
+    <Compile Include="FavorMenuScript.cs" />
+    <Compile Include="FoldedUniformScript.cs" />
+    <Compile Include="FoldingChairScript.cs" />
+    <Compile Include="FootprintScript.cs" />
+    <Compile Include="FootprintSpawnerScript.cs" />
+    <Compile Include="FountainScript.cs" />
+    <Compile Include="FramerateScript.cs" />
+    <Compile Include="FunScript.cs" />
+    <Compile Include="GardenHoleScript.cs" />
+    <Compile Include="GardeningClubMemberScript.cs" />
+    <Compile Include="GasterBeamScript.cs" />
+    <Compile Include="GateScript.cs" />
+    <Compile Include="GentlemanScript.cs" />
+    <Compile Include="GhostScript.cs" />
+    <Compile Include="GiggleScript.cs" />
+    <Compile Include="GloveScript.cs" />
+    <Compile Include="GoToSchoolScript.cs" />
+    <Compile Include="GradingPaperScript.cs" />
+    <Compile Include="GraphUpdaterScript.cs" />
+    <Compile Include="GridScript.cs" />
+    <Compile Include="GrowShrinkScript.cs" />
+    <Compile Include="HairBladeScript.cs" />
+    <Compile Include="HatredScript.cs" />
+    <Compile Include="HeadsetScript.cs" />
+    <Compile Include="HeartbrokenCursorScript.cs" />
+    <Compile Include="HeartbrokenScript.cs" />
+    <Compile Include="HideColliderScript.cs" />
+    <Compile Include="HidingSpotScript.cs" />
+    <Compile Include="HomeCameraScript.cs" />
+    <Compile Include="HomeClockScript.cs" />
+    <Compile Include="HomeCorkboardScript.cs" />
+    <Compile Include="HomeCursorScript.cs" />
+    <Compile Include="HomeDarknessScript.cs" />
+    <Compile Include="HomeExitScript.cs" />
+    <Compile Include="HomeInternetScript.cs" />
+    <Compile Include="HomeMangaBookScript.cs" />
+    <Compile Include="HomeMangaScript.cs" />
+    <Compile Include="HomePantiesScript.cs" />
+    <Compile Include="HomePantyChangerScript.cs" />
+    <Compile Include="HomePrisonerChanScript.cs" />
+    <Compile Include="HomePrisonerScript.cs" />
+    <Compile Include="HomeSenpaiShrineScript.cs" />
+    <Compile Include="HomeSleepScript.cs" />
+    <Compile Include="HomeTriggerScript.cs" />
+    <Compile Include="HomeVideoCameraScript.cs" />
+    <Compile Include="HomeVideoGamesScript.cs" />
+    <Compile Include="HomeWindowScript.cs" />
+    <Compile Include="HomeYandereDetectorScript.cs" />
+    <Compile Include="HomeYandereScript.cs" />
+    <Compile Include="HomeZoomScript.cs" />
+    <Compile Include="IncineratorScript.cs" />
+    <Compile Include="InfoChanWindowScript.cs" />
+    <Compile Include="InputDeviceScript.cs" />
+    <Compile Include="InputManagerScript.cs" />
+    <Compile Include="InterestManagerScript.cs" />
+    <Compile Include="IntroCircleScript.cs" />
+    <Compile Include="IntroScript.cs" />
+    <Compile Include="IntroYandereScript.cs" />
+    <Compile Include="InventoryScript.cs" />
+    <Compile Include="InventoryTestScript.cs" />
+    <Compile Include="JojoWeaponScript.cs" />
+    <Compile Include="JsonScript.cs" />
+    <Compile Include="JukeboxScript.cs" />
+    <Compile Include="KatanaCaseScript.cs" />
+    <Compile Include="KittenScript.cs" />
+    <Compile Include="KnifeDetectorScript.cs" />
+    <Compile Include="LaptopScript.cs" />
+    <Compile Include="LeaveGiftScript.cs" />
+    <Compile Include="LightSwitchScript.cs" />
+    <Compile Include="LiquidColliderScript.cs" />
+    <Compile Include="ListScript.cs" />
+    <Compile Include="LivingRoomCutsceneScript.cs" />
+    <Compile Include="LoadingScript.cs" />
+    <Compile Include="LocationScript.cs" />
+    <Compile Include="LookAtCamera.cs" />
+    <Compile Include="LookAtSCP.cs" />
+    <Compile Include="LoveManagerScript.cs" />
+    <Compile Include="LowPolyStudentScript.cs" />
+    <Compile Include="MaskScript.cs" />
+    <Compile Include="MatchboxScript.cs" />
+    <Compile Include="MatchScript.cs" />
+    <Compile Include="MatchTriggerScript.cs" />
+    <Compile Include="MetalDetectorScript.cs" />
+    <Compile Include="MirrorScript.cs" />
+    <Compile Include="MissionModeMenuScript.cs" />
+    <Compile Include="MissionModeScript.cs" />
+    <Compile Include="MopHeadScript.cs" />
+    <Compile Include="MopScript.cs" />
+    <Compile Include="MouseOrbitAndZoom.cs" />
+    <Compile Include="MovingEventScript.cs" />
+    <Compile Include="MusicCreditScript.cs" />
+    <Compile Include="MusicTest.cs" />
+    <Compile Include="MythTreeScript.cs" />
+    <Compile Include="NemesisScript.cs" />
+    <Compile Include="NodeSetterScript.cs" />
+    <Compile Include="NoteLockerScript.cs" />
+    <Compile Include="NoteWindowScript.cs" />
+    <Compile Include="NotificationManagerScript.cs" />
+    <Compile Include="NotificationScript.cs" />
+    <Compile Include="NurseScript.cs" />
+    <Compile Include="ObstacleDetectorScript.cs" />
+    <Compile Include="OfferHelpScript.cs" />
+    <Compile Include="OsanaMondayBeforeClassEventScript.cs" />
+    <Compile Include="OsanaMondayLunchEventScript.cs" />
+    <Compile Include="OsuScript.cs" />
+    <Compile Include="OutlineScript.cs" />
+    <Compile Include="PanelScript.cs" />
+    <Compile Include="ParticleDeathScript.cs" />
+    <Compile Include="PassTimeScript.cs" />
+    <Compile Include="PauseScreenScript.cs" />
+    <Compile Include="PeekScript.cs" />
+    <Compile Include="PhoneCharmScript.cs" />
+    <Compile Include="PhoneEventScript.cs" />
+    <Compile Include="PhonePromptBarScript.cs" />
+    <Compile Include="PhoneScript.cs" />
+    <Compile Include="PhotoGalleryScript.cs" />
+    <Compile Include="PianoScript.cs" />
+    <Compile Include="PickpocketMinigameScript.cs" />
+    <Compile Include="PickUpScript.cs" />
+    <Compile Include="PlaceholderStudentScript.cs" />
+    <Compile Include="PoisonBottleScript.cs" />
+    <Compile Include="PoisonScript.cs" />
+    <Compile Include="PoliceScript.cs" />
+    <Compile Include="PoliceWalk.cs" />
+    <Compile Include="PortalScript.cs" />
+    <Compile Include="PortraitChanScript.cs" />
+    <Compile Include="PortraitScript.cs" />
+    <Compile Include="PoseModeScript.cs" />
+    <Compile Include="PrayScript.cs" />
+    <Compile Include="PromoCameraScript.cs" />
+    <Compile Include="PromptBarScript.cs" />
+    <Compile Include="PromptParentScript.cs" />
+    <Compile Include="PromptScript.cs" />
+    <Compile Include="PromptSwapScript.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QualityManagerScript.cs" />
+    <Compile Include="RadioScript.cs" />
+    <Compile Include="RagdollScript.cs" />
+    <Compile Include="RainbowScript.cs" />
+    <Compile Include="RandomAnimScript.cs" />
+    <Compile Include="RandomPatrolScript.cs" />
+    <Compile Include="RandomStabScript.cs" />
+    <Compile Include="RefrigeratorScript.cs" />
+    <Compile Include="ReputationScript.cs" />
+    <Compile Include="RingEventScript.cs" />
+    <Compile Include="RingScript.cs" />
+    <Compile Include="RivalBagScript.cs" />
+    <Compile Include="RivalDeskScript.cs" />
+    <Compile Include="RivalMorningEventManagerScript.cs" />
+    <Compile Include="RivalPhoneScript.cs" />
+    <Compile Include="RivalPoseScript.cs" />
+    <Compile Include="RooftopCorpseDisposalScript.cs" />
+    <Compile Include="RooftopScript.cs" />
+    <Compile Include="RoseBushScript.cs" />
+    <Compile Include="RoseSpawnerScript.cs" />
+    <Compile Include="RummageSpotScript.cs" />
+    <Compile Include="SafeScript.cs" />
+    <Compile Include="satomi_scenescript.cs" />
+    <Compile Include="satomi_viewscript.cs" />
+    <Compile Include="SchemeManagerScript.cs" />
+    <Compile Include="SchemesScript.cs" />
+    <Compile Include="ScrollingTexture.cs" />
+    <Compile Include="SecurityCameraScript.cs" />
+    <Compile Include="ServicesScript.cs" />
+    <Compile Include="SettingsScript.cs" />
+    <Compile Include="SewingMachineScript.cs" />
+    <Compile Include="ShadowScript.cs" />
+    <Compile Include="ShoePairScript.cs" />
+    <Compile Include="ShoeRemovalScript.cs" />
+    <Compile Include="ShoulderCameraScript.cs" />
+    <Compile Include="ShowerStoolScript.cs" />
+    <Compile Include="ShutterScript.cs" />
+    <Compile Include="SinkScript.cs" />
+    <Compile Include="SkullScript.cs" />
+    <Compile Include="SpinScript.cs" />
+    <Compile Include="SplashCameraScript.cs" />
+    <Compile Include="SplashSpawnerScript.cs" />
+    <Compile Include="SponsorScript.cs" />
+    <Compile Include="SpyScript.cs" />
+    <Compile Include="StandScript.cs" />
+    <Compile Include="StatsScript.cs" />
+    <Compile Include="StolenPhoneSpotScript.cs" />
+    <Compile Include="StopAnimationScript.cs" />
+    <Compile Include="StruggleBarScript.cs" />
+    <Compile Include="StudentInfoMenuScript.cs" />
+    <Compile Include="StudentInfoScript.cs" />
+    <Compile Include="StudentManagerScript.cs" />
+    <Compile Include="StudentPortraitScript.cs" />
+    <Compile Include="StudentScript.cs" />
+    <Compile Include="SubtitleScript.cs" />
+    <Compile Include="succubus_twins_character_pack_magic_particle_instance.cs" />
+    <Compile Include="succubus_twins_character_pack_my_destroy.cs" />
+    <Compile Include="succubus_twins_character_pack_right_hand_follow.cs" />
+    <Compile Include="succubus_twins_character_pack_scenescript.cs" />
+    <Compile Include="succubus_twins_character_pack_seduce_particle_instance.cs" />
+    <Compile Include="succubus_twins_character_pack_succubus_a_damage.cs" />
+    <Compile Include="succubus_twins_character_pack_succubus_a_magic.cs" />
+    <Compile Include="succubus_twins_character_pack_succubus_a_materialization.cs" />
+    <Compile Include="succubus_twins_character_pack_succubus_a_seduce.cs" />
+    <Compile Include="succubus_twins_character_pack_succubus_a_seduced.cs" />
+    <Compile Include="succubus_twins_character_pack_succubus_b_damage.cs" />
+    <Compile Include="succubus_twins_character_pack_succubus_b_magic.cs" />
+    <Compile Include="succubus_twins_character_pack_succubus_b_materialization.cs" />
+    <Compile Include="succubus_twins_character_pack_succubus_b_seduce.cs" />
+    <Compile Include="succubus_twins_character_pack_succubus_b_seduced.cs" />
+    <Compile Include="succubus_twins_character_pack_viewer_magic_particle_instance.cs" />
+    <Compile Include="succubus_twins_character_pack_viewer_my_destroy.cs" />
+    <Compile Include="succubus_twins_character_pack_viewer_right_hand_follow.cs" />
+    <Compile Include="succubus_twins_character_pack_viewer_seduce_particle_instance.cs" />
+    <Compile Include="succubus_twins_character_pack_viewer_succubus_a_damage.cs" />
+    <Compile Include="succubus_twins_character_pack_viewer_succubus_a_magic0m.cs" />
+    <Compile Include="succubus_twins_character_pack_viewer_succubus_a_magic20m.cs" />
+    <Compile Include="succubus_twins_character_pack_viewer_succubus_a_magic4m.cs" />
+    <Compile Include="succubus_twins_character_pack_viewer_succubus_a_magic8m.cs" />
+    <Compile Include="succubus_twins_character_pack_viewer_succubus_a_materialization.cs" />
+    <Compile Include="succubus_twins_character_pack_viewer_succubus_a_seduce.cs" />
+    <Compile Include="succubus_twins_character_pack_viewer_succubus_a_seduced.cs" />
+    <Compile Include="succubus_twins_character_pack_viewer_succubus_b_damage.cs" />
+    <Compile Include="succubus_twins_character_pack_viewer_succubus_b_magic0m.cs" />
+    <Compile Include="succubus_twins_character_pack_viewer_succubus_b_magic20m.cs" />
+    <Compile Include="succubus_twins_character_pack_viewer_succubus_b_magic4m.cs" />
+    <Compile Include="succubus_twins_character_pack_viewer_succubus_b_magic8m.cs" />
+    <Compile Include="succubus_twins_character_pack_viewer_succubus_b_materialization.cs" />
+    <Compile Include="succubus_twins_character_pack_viewer_succubus_b_seduce.cs" />
+    <Compile Include="succubus_twins_character_pack_viewer_succubus_b_seduced.cs" />
+    <Compile Include="succubus_twins_character_pack_viewscript.cs" />
+    <Compile Include="SuitorBoostScript.cs" />
+    <Compile Include="taichi_scenescript.cs" />
+    <Compile Include="taichi_twin2nd_scenescript.cs" />
+    <Compile Include="taichi_twin_scenescript.cs" />
+    <Compile Include="taichi_twin_viewscript.cs" />
+    <Compile Include="taichi_viewscript.cs" />
+    <Compile Include="TalkingScript.cs" />
+    <Compile Include="TallLockerScript.cs" />
+    <Compile Include="TapePlayerMenuScript.cs" />
+    <Compile Include="TapePlayerScript.cs" />
+    <Compile Include="TaskListScript.cs" />
+    <Compile Include="TaskManagerScript.cs" />
+    <Compile Include="TaskWindowScript.cs" />
+    <Compile Include="TestScript.cs" />
+    <Compile Include="TextMessageManagerScript.cs" />
+    <Compile Include="TextMessageScript.cs" />
+    <Compile Include="TextureManagerScript.cs" />
+    <Compile Include="TitleMenuScript.cs" />
+    <Compile Include="TitleSponsorScript.cs" />
+    <Compile Include="ToiletEventScript.cs" />
+    <Compile Include="TopicManagerScript.cs" />
+    <Compile Include="TornadoScript.cs" />
+    <Compile Include="TrailScript.cs" />
+    <Compile Include="TranqCaseScript.cs" />
+    <Compile Include="TranqDetectorScript.cs" />
+    <Compile Include="TranquilizerScript.cs" />
+    <Compile Include="TrashCanScript.cs" />
+    <Compile Include="TrespassScript.cs" />
+    <Compile Include="TypingSpeedScript.cs" />
+    <Compile Include="UniformSwapperScript.cs" />
+    <Compile Include="VendingMachineScript.cs" />
+    <Compile Include="VibrateScript.cs" />
+    <Compile Include="WarningScript.cs" />
+    <Compile Include="WeaponManagerScript.cs" />
+    <Compile Include="WeaponMenuScript.cs" />
+    <Compile Include="WeaponScript.cs" />
+    <Compile Include="WelcomeScript.cs" />
+    <Compile Include="WitnessCameraScript.cs" />
+    <Compile Include="WoodChipperScript.cs" />
+    <Compile Include="YandereKunScript.cs" />
+    <Compile Include="YandereScript.cs" />
+    <Compile Include="YandereShoeLockerScript.cs" />
+    <Compile Include="YanvaniaBigFireballScript.cs" />
+    <Compile Include="YanvaniaBlackHoleAttackScript.cs" />
+    <Compile Include="YanvaniaBlackHoleScript.cs" />
+    <Compile Include="YanvaniaBossHeadScript.cs" />
+    <Compile Include="YanvaniaCameraScript.cs" />
+    <Compile Include="YanvaniaCandlestickHeadScript.cs" />
+    <Compile Include="YanvaniaCandlestickScript.cs" />
+    <Compile Include="YanvaniaCutsceneTriggerScript.cs" />
+    <Compile Include="YanvaniaDoubleFireballScript.cs" />
+    <Compile Include="YanvaniaDraculaScript.cs" />
+    <Compile Include="YanvaniaIntroScript.cs" />
+    <Compile Include="YanvaniaJarScript.cs" />
+    <Compile Include="YanvaniaJarShardScript.cs" />
+    <Compile Include="YanvaniaJukeboxScript.cs" />
+    <Compile Include="YanvaniaSmallFireballScript.cs" />
+    <Compile Include="YanvaniaTeleportEffectScript.cs" />
+    <Compile Include="YanvaniaTextBoxScript.cs" />
+    <Compile Include="YanvaniaTitleScript.cs" />
+    <Compile Include="YanvaniaTripleFireballScript.cs" />
+    <Compile Include="YanvaniaTryAgainScript.cs" />
+    <Compile Include="YanvaniaWineScript.cs" />
+    <Compile Include="YanvaniaWitchScript.cs" />
+    <Compile Include="YanvaniaYanmontScript.cs" />
+    <Compile Include="YanvaniaZombieScript.cs" />
+    <Compile Include="YanvaniaZombieSpawnerScript.cs" />
+    <Compile Include="YouTubeScript.cs" />
+    <Compile Include="ZoomScript.cs" />
+    <Compile Include="__MusicTest$callable0$51_28__.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
